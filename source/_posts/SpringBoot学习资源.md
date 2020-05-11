@@ -16,3 +16,6 @@ tags: springboot
   * [Awesome-Spring-Boot](https://github.com/ityouknow/awesome-spring-boot)
   
 ## 视频教程
+
+## 文档
+   * [Spring boot 2教程合集]( http://springboot.javaboy.org/)
