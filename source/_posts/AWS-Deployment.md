@@ -18,19 +18,19 @@ tags: docker  AWS
     ```
   * build image
    ```javascript
-     docker build -t a206171-ecat-workflow-entitytransformer .
-     docker tag a206171-ecat-workflow-entitytransformer:latest 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ecat-workflow-entitytransformer:latest
+     docker build -t #{imageName} .
+     docker tag #{imageName}:#{version} #{imageName}:#{version}
    ```
 * aws login to generate token with cloud-tool-fr
     ```javascript
-    cloud-tool-fr --region us-east-1 --profile default login --account-id "608014515287" --role "human-role/200016-PowerUser" --username "MGMT\MC267998" --password "rU3X96CwgSyqs6Yr"
-* login in  ECR and push image
+       cloud-tool-fr --region us-east-1 --profile default login --account-id "accountId" --role "aws role" --username "username" --password "password"
+    ```
+*  login in  ECR and push image
    ```javascript
-      aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ecat-workflow-entitytransformer
-    
-      docker push 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ecat-workflow-entitytransformer:latest
+      aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin #{registryAddr}/#{imageName}
+      docker push #{registryAddr}/#{imageName}:#{version}
    ```
 * restart ECS
   ```javascript  
-   aws ecs update-service --cluster a206171-ecat-workflow-entitytransformer-cluster --service a206171-ecat-workflow-entitytransformer-service --force-new-deployment
+   aws ecs update-service --cluster #{imageName}-cluster --service #{imageName}-service --force-new-deployment
   ```
