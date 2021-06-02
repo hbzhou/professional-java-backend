@@ -1,7 +1,5 @@
 ---
-title: SpringBoot学习资源
-date: 2020-03-17 12:08:49
-tags: springboot 
+title: SpringBoot学习资源 tags: springboot abbrlink: 50024 date: 2020-03-17 12:08:49
 ---
 ## blog教程
   * [江南一点雨](https://www.javaboy.org/categories/Spring-Boot/ ):spring boot 系列教程

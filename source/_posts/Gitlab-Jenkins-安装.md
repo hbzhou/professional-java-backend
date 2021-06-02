@@ -1,7 +1,5 @@
 ---
-title: Gitlab && Jenkins 安装
-date: 2020-05-15 10:31:49
-tags:
+title: Gitlab && Jenkins 安装 abbrlink: 55014 date: 2020-05-15 10:31:49 tags:
 ---
 ## 安装GitLab
 传统方式安装GitLab比较麻烦，所以这里我们使用Docker安装GitLab

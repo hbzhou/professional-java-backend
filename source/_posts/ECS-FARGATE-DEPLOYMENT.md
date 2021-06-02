@@ -1,7 +1,5 @@
 ---
-title: ECS-FARGATE-DEPLOYMENT
-date: 2020-05-12 11:08:39
-tags: AWS
+title: ECS-FARGATE-DEPLOYMENT tags: AWS abbrlink: 64345 date: 2020-05-12 11:08:39
 ---
 ## create ecs cluster
    ```shell script 
@@ -295,4 +293,3 @@ tags: AWS
   * [Amazon ECS Command Line Reference](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI_reference.html)
   
 
-  

@@ -1,7 +1,5 @@
 ---
-title: Jenkins File
-date: 2020-05-13 09:48:49
-tags:
+title: Jenkins File abbrlink: 44196 date: 2020-05-13 09:48:49 tags:
 ---
 ```shell script
    image_tag = "default"  //定一个全局变量，存储Docker镜像的tag（版本）
