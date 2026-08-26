@@ -1,5 +1,8 @@
 ---
-title: Linux Command Collections abbrlink: 15103 date: 2020-06-14 17:48:52 tags:
+title: 'Linux Command Collections'
+abbrlink: 15103
+date: '2020-06-14 17:48:52'
+tags: []
 ---
 
 ### 查看cpu信息

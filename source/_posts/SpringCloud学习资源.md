@@ -1,5 +1,8 @@
 ---
-title: SpringCloud学习资源 tags: spring cloud abbrlink: 2645 date: 2020-03-17 14:05:04
+title: 'SpringCloud学习资源'
+tags: ['spring', 'cloud']
+abbrlink: 2645
+date: '2020-03-17 14:05:04'
 ---
 ### Blogs
  * [Spring Cloud微服务教程汇总](http://www.springcloud.wiki/)

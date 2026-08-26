@@ -1,5 +1,8 @@
 ---
-title: Centos docker && docker-compose install abbrlink: 34228 date: 2020-05-15 10:00:49 tags:
+title: 'Centos docker && docker-compose install'
+abbrlink: 34228
+date: '2020-05-15 10:00:49'
+tags: []
 ---
 
 ### docker install

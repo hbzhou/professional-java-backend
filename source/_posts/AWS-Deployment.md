@@ -1,5 +1,8 @@
 ---
-title: AWS-Deployment tags: docker AWS abbrlink: 60949 date: 2020-03-17 11:19:14
+title: 'AWS-Deployment'
+tags: ['docker', 'AWS']
+abbrlink: 60949
+date: '2020-03-17 11:19:14'
 ---
 
 * prepare docker file,package and build image

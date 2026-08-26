@@ -1,5 +1,8 @@
 ---
-title: ECS-FARGATE-DEPLOYMENT tags: AWS abbrlink: 64345 date: 2020-05-12 11:08:39
+title: 'ECS-FARGATE-DEPLOYMENT'
+tags: ['AWS']
+abbrlink: 64345
+date: '2020-05-12 11:08:39'
 ---
 ## create ecs cluster
    ```shell script 
